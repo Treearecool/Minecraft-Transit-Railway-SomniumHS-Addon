@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shsaddon",
+  "version": "${version}",
+  "name": "MTR_1.16 3.0.0 SHSAddon",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/MTR_1.16-3.0.0-SHSAddon/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "MTR_1.16-3.0.0-SHSAddon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
