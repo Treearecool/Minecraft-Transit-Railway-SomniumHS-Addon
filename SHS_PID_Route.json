@@ -1,0 +1,147 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "shsaddon:block/pids_shs_face_route",
+		"particle": "shsaddon:block/pids_shs_face_route"
+	},
+	"elements": [
+		{
+			"name": "poleR",
+			"from": [-4, 12, -1],
+			"to": [-2, 16, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#missing"},
+				"east": {"uv": [0, 0, 2, 4], "texture": "#missing"},
+				"south": {"uv": [0, 0, 2, 4], "texture": "#missing"},
+				"west": {"uv": [0, 0, 2, 4], "texture": "#missing"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "poleL",
+			"from": [18, 12, -1],
+			"to": [20, 16, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#missing"},
+				"east": {"uv": [2, 0, 4, 4], "texture": "#missing"},
+				"south": {"uv": [0, 4, 2, 8], "texture": "#missing"},
+				"west": {"uv": [4, 0, 6, 4], "texture": "#missing"},
+				"up": {"uv": [4, 6, 2, 4], "texture": "#missing"},
+				"down": {"uv": [6, 4, 4, 6], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [-6, 12, -2],
+			"to": [22, 12, 2],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 4], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 4], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [-6, 6, -2],
+			"to": [22, 6, 2],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 4], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 4], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "left",
+			"from": [22, 6, -2],
+			"to": [22, 12, 2],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [0, 0, 0, 6], "texture": "#missing"},
+				"east": {"uv": [0, 0, 4, 6], "texture": "#missing"},
+				"south": {"uv": [0, 0, 0, 6], "texture": "#missing"},
+				"west": {"uv": [0, 0, 4, 6], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [-6, 6, -2],
+			"to": [-6, 12, 2],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [0, 0, 0, 6], "texture": "#missing"},
+				"east": {"uv": [0, 0, 4, 6], "texture": "#missing"},
+				"south": {"uv": [0, 0, 0, 6], "texture": "#missing"},
+				"west": {"uv": [0, 0, 4, 6], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "front",
+			"from": [-8, 5, -3],
+			"to": [24, 14, -2],
+			"faces": {
+				"north": {"uv": [0, 4, 8, 8], "texture": "#0"},
+				"east": {"uv": [8, 4, 8.25, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 4], "texture": "#0"},
+				"west": {"uv": [8, 0, 8.25, 4], "texture": "#0"},
+				"up": {"uv": [0, 8, 8, 8.25], "texture": "#0"},
+				"down": {"uv": [8.25, 0, 16, 0.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "back",
+			"from": [-8, 5, 2],
+			"to": [24, 14, 3],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 4], "texture": "#0"},
+				"east": {"uv": [8, 0.25, 8.25, 4.25], "texture": "#0"},
+				"south": {"uv": [0, 4, 8, 8], "texture": "#0"},
+				"west": {"uv": [8, 4.25, 8.25, 8.25], "texture": "#0"},
+				"up": {"uv": [8, 8.25, 0, 8], "texture": "#0"},
+				"down": {"uv": [16, 0, 8, 0.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [51, -7, 7],
+			"translation": [0, -2.25, 0.25],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "pole",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "outline",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [2, 3, 4, 5]
+		},
+		{
+			"name": "screen",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [6, 7]
+		}
+	]
+}

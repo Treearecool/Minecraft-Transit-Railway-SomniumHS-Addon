@@ -9,7 +9,14 @@
   "license": "All-Rights-Reserved",
   "icon": "assets/MTR_1.16-3.0.0-SHSAddon/icon.png",
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "main": [
+      "shsaddon.SHSAddon"
+    ],
+    "client": [
+      "shsaddon.SHSAddonClient"
+    ]
+  },
   "mixins": [
     "MTR_1.16-3.0.0-SHSAddon.mixins.json"
   ],

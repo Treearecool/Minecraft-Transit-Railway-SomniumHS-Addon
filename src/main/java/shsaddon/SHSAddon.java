@@ -17,6 +17,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import shsaddon.block.BlockPIDSSHS;
+import shsaddon.block.BlockPIDSSHSRoute;
 
 import java.util.function.Supplier;
 
@@ -24,10 +25,13 @@ public class SHSAddon implements ModInitializer, IPacket {
 
 	public static final String MOD_ID = "shsaddon";
 	public static final BlockEntityType<BlockPIDSSHS.TileEntityBlockPIDSSHS> PIDS_SHS_TILE_ENTITY = registerTileEntity("pids_shs", BlockPIDSSHS.TileEntityBlockPIDSSHS::new, Blocks.PIDS_SHS);
+	public static final BlockEntityType<BlockPIDSSHSRoute.TileEntityBlockPIDSSHSRoute> PIDS_SHS_ROUTE_TILE_ENTITY = registerTileEntity("pids_shs_route", BlockPIDSSHSRoute.TileEntityBlockPIDSSHSRoute::new, Blocks.PIDS_SHS_ROUTE);
 
 	public void onInitialize() {
 		registerBlock("pids_shs", Blocks.PIDS_SHS, ItemGroup.DECORATIONS);
+		registerBlock("pids_shs_route", Blocks.PIDS_SHS_ROUTE, ItemGroup.DECORATIONS);
 	}
+
 
 	private static void registerItem(String path, Item item) {
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, path), item);

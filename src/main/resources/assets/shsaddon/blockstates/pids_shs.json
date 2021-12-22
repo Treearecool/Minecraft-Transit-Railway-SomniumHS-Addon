@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "shsaddon:block/pids_shs", "y": 270 },
+		"facing=east": { "model": "shsaddon:block/pids_shs", "y": 0 },
+		"facing=south": { "model": "shsaddon:block/pids_shs", "y": 90 },
+		"facing=west": { "model": "shsaddon:block/pids_shs", "y": 180 }
+	}
+}

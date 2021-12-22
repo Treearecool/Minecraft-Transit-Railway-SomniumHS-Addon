@@ -1,0 +1,28 @@
+{
+  "block.minecraft.concrete": "Concrete",
+  "block.minecraft.concrete_powder": "Concrete Powder",
+  "block.minecraft.metal": "Metal Block",
+  "block.minecraft.planks": "Wooden Planks",
+  "block.minecraft.stained_glass": "Stained Glass",
+  "block.minecraft.wool": "Wool",
+  "block.shsaddon.pids_shs": "SHS Passenger Information Display System",
+  "block.shsaddon.pids_shs_route": "SHS Passenger Information Display System - Route Map",
+  "gui.shsaddon.arriving": "Arriving",
+  "gui.shsaddon.arriving_cjk": "即將進站",
+  "gui.shsaddon.boarding": "Boarding",
+  "gui.shsaddon.boarding_cjk": "現正登車",
+  "gui.shsaddon.departing": "Departing",
+  "gui.shsaddon.departing_cjk": "即將開出",
+  "gui.shsaddon.door_closing": "Stand Back",
+  "gui.shsaddon.door_closing_cjk": "車門正在關上",
+  "gui.shsaddon.delayed": "Delayed",
+  "gui.shsaddon.delayed_cjk": "誤點",
+  "gui.shsaddon.next": "Next",
+  "gui.shsaddon.next_cjk": "其後",
+  "gui.shsaddon.terminating": "This train terminates here",
+  "gui.shsaddon.terminating_cjk": "這班列車不會接載乘客",
+  "gui.shsaddon.not_in_use": "Not in Use",
+  "gui.shsaddon.not_in_use_cjk": "暫停使用",
+  "gui.shsaddon.platform": "Platform"
+
+}

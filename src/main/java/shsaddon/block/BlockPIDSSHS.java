@@ -10,7 +10,7 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import shsaddon.SHSAddon;
 
-public class BlockPIDSSHS extends mtr.block.BlockPIDSBase {
+public class BlockPIDSSHS extends BlockPIDSSHSBase {
 
 	@Override
 	public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
@@ -22,6 +22,11 @@ public class BlockPIDSSHS extends mtr.block.BlockPIDSBase {
 	@Override
 	public BlockEntity createBlockEntity(BlockView world) {
 		return new TileEntityBlockPIDSSHS();
+	}
+
+	@Override
+	public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+		return null;
 	}
 
 	public static class TileEntityBlockPIDSSHS extends BlockEntity {
